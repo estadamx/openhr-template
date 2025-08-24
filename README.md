@@ -25,7 +25,7 @@ These are required for asset compilation and dartsass integration.
 ```bash
 rails new my_app -m https://raw.githubusercontent.com/estadamx/openhr-template/main/openhr_bootstrap_template.rb
 ```
-You will also need to ensure that you add the correct JavaScript in either controllers or `app/javascript/application.js`
+You will also need to ensure that you add the correct JavaScript as per Bootstrap documentation in either your JavaScript controllers or `app/javascript/application.js`
 ```ruby
 
 let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))  
