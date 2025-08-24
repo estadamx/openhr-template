@@ -1,6 +1,6 @@
-# 🧵 openHR Rails Template
+# 🧵 Rails 8 and Bootstrap 5 Template
 
-This Rails application template sets up Bootstrap 5.3, dartsass, and honour-tier scaffolding for ethical, resilient apps. It’s designed to reflect openHR’s onboarding values: clarity, dignity, and legacy-aware defaults.
+This Rails application template sets up Bootstrap 5.3, dartsass, and honour-tier scaffolding for ethical, resilient apps. It’s designed to reflect openHR’s onboarding values: clarity, dignity, and legacy-aware defaults. This ensures that Bootstrap's stylesheets and JavaScript works from the start.
 
 ## ✨ Features
 
@@ -24,3 +24,12 @@ These are required for asset compilation and dartsass integration.
 
 ```bash
 rails new my_app -m https://raw.githubusercontent.com/estadamx/openhr-template/main/openhr_bootstrap_template.rb
+```
+You will also need to ensure that you add the correct JavaScript in either controllers or `app/javascript/application.js`
+```ruby
+
+let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))  
+let popoverList = popoverTriggerList.map(function (popoverTriggerEl) {  
+  return new bootstrap.Popover(popoverTriggerEl)  
+})
+```
