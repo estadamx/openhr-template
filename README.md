@@ -1,6 +1,6 @@
 # 🧵 Rails 8 and Bootstrap 5 Template
 
-This Rails 8 application template sets up <a href="https://getbootstrap.com/docs/">Bootstrap</a>, dartsass, and honour-tier scaffolding for ethical, resilient apps. It’s designed to reflect openHR’s onboarding values: clarity, dignity, and legacy-aware defaults. This ensures that Bootstrap's stylesheets and JavaScript works from the start.
+This Rails 8 application template sets up <a href="https://getbootstrap.com/">Bootstrap</a>, dartsass, and honour-tier scaffolding for ethical, resilient apps. It’s designed to reflect openHR’s onboarding values: clarity, dignity, and legacy-aware defaults. This ensures that Bootstrap's stylesheets and JavaScript works from the start.
 
 ## ✨ Features
 
